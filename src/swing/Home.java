@@ -494,10 +494,10 @@ public final class Home extends javax.swing.JFrame {
         );
         panelLineChartLayout.setVerticalGroup(
             panelLineChartLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 257, Short.MAX_VALUE)
+            .addGap(0, 190, Short.MAX_VALUE)
         );
 
-        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, -1, -1));
+        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, -1, 190));
 
         jPanel1.setLayout(new java.awt.BorderLayout());
         jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 350, 190));
