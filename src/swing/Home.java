@@ -25,7 +25,7 @@ import org.jfree.data.statistics.HistogramDataset;
  *
  * @author Kaldan
  */
-public class Home extends javax.swing.JFrame {
+public final class Home extends javax.swing.JFrame {
 
     /**
      * Creates new form Home
@@ -36,6 +36,10 @@ public class Home extends javax.swing.JFrame {
         ind_1.setOpaque(true);
         resetColor(new JPanel[]{btn_2,btn_3,btn_4}, new JPanel[]{ind_2,ind_3, ind_4});
         //jProgressBar1.setValue(50);
+        showPieChart();
+        showLineChart();
+        showHistogram();
+        showBarChart();
     }
     
     
@@ -190,10 +194,10 @@ public class Home extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        panelLineChart = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         panelBarChart = new javax.swing.JPanel();
-        panelLineChart = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -482,45 +486,6 @@ public class Home extends javax.swing.JFrame {
 
         jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 660, 256));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 350, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 190, Short.MAX_VALUE)
-        );
-
-        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 350, 190));
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 290, Short.MAX_VALUE)
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 190, Short.MAX_VALUE)
-        );
-
-        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, 290, -1));
-
-        javax.swing.GroupLayout panelBarChartLayout = new javax.swing.GroupLayout(panelBarChart);
-        panelBarChart.setLayout(panelBarChartLayout);
-        panelBarChartLayout.setHorizontalGroup(
-            panelBarChartLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 290, Short.MAX_VALUE)
-        );
-        panelBarChartLayout.setVerticalGroup(
-            panelBarChartLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 190, Short.MAX_VALUE)
-        );
-
-        jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 80, -1, -1));
-
         javax.swing.GroupLayout panelLineChartLayout = new javax.swing.GroupLayout(panelLineChart);
         panelLineChart.setLayout(panelLineChartLayout);
         panelLineChartLayout.setHorizontalGroup(
@@ -529,10 +494,19 @@ public class Home extends javax.swing.JFrame {
         );
         panelLineChartLayout.setVerticalGroup(
             panelLineChartLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 190, Short.MAX_VALUE)
+            .addGap(0, 257, Short.MAX_VALUE)
         );
 
-        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 390, -1, -1));
+        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, -1, -1));
+
+        jPanel1.setLayout(new java.awt.BorderLayout());
+        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 350, 190));
+
+        jPanel3.setLayout(new java.awt.BorderLayout());
+        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, 290, -1));
+
+        panelBarChart.setLayout(new java.awt.BorderLayout());
+        jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 80, 270, 190));
 
         getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 50, 1000, 590));
 
