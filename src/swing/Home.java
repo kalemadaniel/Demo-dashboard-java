@@ -486,18 +486,8 @@ public final class Home extends javax.swing.JFrame {
 
         jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 660, 256));
 
-        javax.swing.GroupLayout panelLineChartLayout = new javax.swing.GroupLayout(panelLineChart);
-        panelLineChart.setLayout(panelLineChartLayout);
-        panelLineChartLayout.setHorizontalGroup(
-            panelLineChartLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 290, Short.MAX_VALUE)
-        );
-        panelLineChartLayout.setVerticalGroup(
-            panelLineChartLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 190, Short.MAX_VALUE)
-        );
-
-        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, -1, 190));
+        panelLineChart.setLayout(new java.awt.BorderLayout());
+        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 80, 310, 190));
 
         jPanel1.setLayout(new java.awt.BorderLayout());
         jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 350, 190));
