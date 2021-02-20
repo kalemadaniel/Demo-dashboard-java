@@ -186,9 +186,6 @@ public final class Home extends javax.swing.JFrame {
         btn_4 = new javax.swing.JPanel();
         ind_4 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jLabel7 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
@@ -400,50 +397,7 @@ public final class Home extends javax.swing.JFrame {
 
         side_pane.add(btn_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 120, -1));
 
-        getContentPane().add(side_pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 130, 590));
-
-        jPanel2.setBackground(new java.awt.Color(71, 120, 197));
-        jPanel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseDragged(java.awt.event.MouseEvent evt) {
-                jPanel2MouseDragged(evt);
-            }
-        });
-        jPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jPanel2MousePressed(evt);
-            }
-        });
-
-        jTextField1.setBackground(new java.awt.Color(123, 156, 225));
-        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField1.setBorder(null);
-        jTextField1.setCaretColor(new java.awt.Color(255, 255, 255));
-        jTextField1.setPreferredSize(new java.awt.Dimension(2, 20));
-
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/swing/images/icons8_Search_18px.png"))); // NOI18N
-
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(745, Short.MAX_VALUE)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel7)
-                .addGap(34, 34, 34))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(24, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
-        );
-
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, 950, 50));
+        getContentPane().add(side_pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 640));
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -454,9 +408,9 @@ public final class Home extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(102, 102, 102));
         jLabel14.setText("Launch dates for the items listed ");
-        jPanel7.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 23, -1, 19));
+        jPanel7.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 19));
 
-        jPanel6.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 350, 50));
+        jPanel6.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, 660, 20));
 
         jScrollPane1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
 
@@ -484,21 +438,21 @@ public final class Home extends javax.swing.JFrame {
         jTable1.setRowHeight(22);
         jScrollPane1.setViewportView(jTable1);
 
-        jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 660, 256));
+        jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 660, 256));
 
         panelLineChart.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 80, 310, 190));
+        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 370, 300, 190));
 
         jPanel1.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 350, 190));
+        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 350, 190));
 
         jPanel3.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, 290, -1));
+        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 150, 290, 190));
 
         panelBarChart.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 80, 270, 190));
+        jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 150, 270, 190));
 
-        getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 50, 1000, 590));
+        getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, 1000, 640));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -532,22 +486,6 @@ public final class Home extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_2MouseReleased
 
     int xx,xy;
-    private void jPanel2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MousePressed
-        // TODO add your handling code here:
-        //drag this pane
-        xx = evt.getX();
-        xy = evt.getY();
-    }//GEN-LAST:event_jPanel2MousePressed
-
-    private void jPanel2MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MouseDragged
-        // TODO add your handling code here:
-        
-        //source to drag
-        int x = evt.getXOnScreen();
-        int y = evt.getYOnScreen();
-        this.setLocation(x-xx,y-xy);
-    }//GEN-LAST:event_jPanel2MouseDragged
-
     /**
      * @param args the command line arguments
      */
@@ -613,17 +551,14 @@ public final class Home extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JPanel panelBarChart;
     private javax.swing.JPanel panelLineChart;
     private javax.swing.JPanel side_pane;
