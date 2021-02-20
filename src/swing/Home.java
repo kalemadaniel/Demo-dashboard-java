@@ -456,7 +456,7 @@ public final class Home extends javax.swing.JFrame {
         jLabel14.setText("Launch dates for the items listed ");
         jPanel7.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 23, -1, 19));
 
-        jPanel6.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 650, 50));
+        jPanel6.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 350, 50));
 
         jScrollPane1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
 
