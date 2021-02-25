@@ -202,7 +202,8 @@ public final class Home extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        side_pane.setBackground(new java.awt.Color(23, 35, 51));
+        side_pane.setBackground(new java.awt.Color(10, 81, 45));
+        side_pane.setToolTipText("");
         side_pane.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btn_1.setBackground(new java.awt.Color(23, 35, 51));
@@ -397,7 +398,7 @@ public final class Home extends javax.swing.JFrame {
 
         side_pane.add(btn_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 140, -1));
 
-        getContentPane().add(side_pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 640));
+        getContentPane().add(side_pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 680));
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -452,7 +453,7 @@ public final class Home extends javax.swing.JFrame {
         panelBarChart.setLayout(new java.awt.BorderLayout());
         jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 150, 270, 190));
 
-        getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, 1000, 640));
+        getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, 1040, 680));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
