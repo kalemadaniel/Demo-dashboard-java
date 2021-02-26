@@ -33,7 +33,7 @@
     <Container class="javax.swing.JPanel" name="side_pane">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="2d" green="51" red="a" type="rgb"/>
+          <Color blue="33" green="23" red="17" type="rgb"/>
         </Property>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>

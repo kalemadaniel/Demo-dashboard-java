@@ -202,7 +202,7 @@ public final class Home extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        side_pane.setBackground(new java.awt.Color(10, 81, 45));
+        side_pane.setBackground(new java.awt.Color(23, 35, 51));
         side_pane.setToolTipText("");
         side_pane.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
