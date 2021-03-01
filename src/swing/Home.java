@@ -445,10 +445,10 @@ public final class Home extends javax.swing.JFrame {
         jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 460, 330, 200));
 
         jPanel1.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 350, 190));
+        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 330, 190));
 
         jPanel3.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 230, 290, 190));
+        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 230, 310, 190));
 
         panelBarChart.setLayout(new java.awt.BorderLayout());
         jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 230, 330, 210));
