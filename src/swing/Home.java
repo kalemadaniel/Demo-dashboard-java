@@ -40,6 +40,7 @@ public final class Home extends javax.swing.JFrame {
         showLineChart();
         showHistogram();
         showBarChart();
+        this.setLocationRelativeTo(null);
     }
     
     
@@ -402,7 +403,7 @@ public final class Home extends javax.swing.JFrame {
 
         side_pane.add(btn_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 140, -1));
 
-        getContentPane().add(side_pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 680));
+        getContentPane().add(side_pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 610));
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -415,7 +416,7 @@ public final class Home extends javax.swing.JFrame {
         jLabel14.setText("Launch dates for the items listed ");
         jPanel7.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 19));
 
-        jPanel6.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, 660, 20));
+        jPanel6.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 371, 660, -1));
 
         jScrollPane1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
 
@@ -443,19 +444,19 @@ public final class Home extends javax.swing.JFrame {
         jTable1.setRowHeight(22);
         jScrollPane1.setViewportView(jTable1);
 
-        jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 420, 660, 210));
+        jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, 660, 210));
 
         panelLineChart.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 430, 330, 200));
+        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 400, 330, 200));
 
         jPanel1.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 330, 190));
+        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 330, 190));
 
         jPanel3.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 200, 310, 190));
+        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, 310, 190));
 
         panelBarChart.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 200, 320, 210));
+        jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 170, 320, 210));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -495,9 +496,12 @@ public final class Home extends javax.swing.JFrame {
         );
 
         jPanel6.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, -1, -1));
-        jPanel6.add(jProgressBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 330, -1));
 
-        getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 0, 1030, 680));
+        jProgressBar1.setBackground(new java.awt.Color(255, 255, 255));
+        jProgressBar1.setBorderPainted(false);
+        jPanel6.add(jProgressBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 330, -1));
+
+        getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 0, 1030, 610));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
