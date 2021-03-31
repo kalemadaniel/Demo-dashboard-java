@@ -200,6 +200,8 @@ public final class Home extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jProgressBar1 = new javax.swing.JProgressBar();
+        jProgressBar2 = new javax.swing.JProgressBar();
+        jProgressBar3 = new javax.swing.JProgressBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -499,7 +501,15 @@ public final class Home extends javax.swing.JFrame {
 
         jProgressBar1.setBackground(new java.awt.Color(255, 255, 255));
         jProgressBar1.setBorderPainted(false);
-        jPanel6.add(jProgressBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 330, -1));
+        jPanel6.add(jProgressBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 150, 310, -1));
+
+        jProgressBar2.setBackground(new java.awt.Color(255, 255, 255));
+        jProgressBar2.setBorderPainted(false);
+        jPanel6.add(jProgressBar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 330, -1));
+
+        jProgressBar3.setBackground(new java.awt.Color(255, 255, 255));
+        jProgressBar3.setBorderPainted(false);
+        jPanel6.add(jProgressBar3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 150, 310, -1));
 
         getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 0, 1030, 610));
 
@@ -610,6 +620,8 @@ public final class Home extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JProgressBar jProgressBar1;
+    private javax.swing.JProgressBar jProgressBar2;
+    private javax.swing.JProgressBar jProgressBar3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JPanel panelBarChart;
