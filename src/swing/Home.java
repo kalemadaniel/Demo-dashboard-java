@@ -36,6 +36,8 @@ public final class Home extends javax.swing.JFrame {
         ind_1.setOpaque(true);
         resetColor(new JPanel[]{btn_2,btn_3,btn_4}, new JPanel[]{ind_2,ind_3, ind_4});
         jProgressBar1.setValue(50);
+        jProgressBar2.setValue(65);
+        jProgressBar3.setValue(80);
         showPieChart();
         showLineChart();
         showHistogram();
