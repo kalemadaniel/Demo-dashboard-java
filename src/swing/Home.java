@@ -37,7 +37,7 @@ public final class Home extends javax.swing.JFrame {
         resetColor(new JPanel[]{btn_2,btn_3,btn_4}, new JPanel[]{ind_2,ind_3, ind_4});
         jProgressBar1.setValue(50);
         jProgressBar2.setValue(65);
-        jProgressBar3.setValue(80);
+        jProgressBar3.setValue(20);
         showPieChart();
         showLineChart();
         showHistogram();
@@ -502,14 +502,18 @@ public final class Home extends javax.swing.JFrame {
         jPanel6.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, -1, -1));
 
         jProgressBar1.setBackground(new java.awt.Color(255, 255, 255));
+        jProgressBar1.setForeground(new java.awt.Color(255, 255, 255));
         jProgressBar1.setBorderPainted(false);
         jPanel6.add(jProgressBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 150, 310, -1));
 
         jProgressBar2.setBackground(new java.awt.Color(255, 255, 255));
+        jProgressBar2.setForeground(new java.awt.Color(51, 51, 255));
         jProgressBar2.setBorderPainted(false);
+        jProgressBar2.setStringPainted(true);
         jPanel6.add(jProgressBar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 330, -1));
 
         jProgressBar3.setBackground(new java.awt.Color(255, 255, 255));
+        jProgressBar3.setForeground(new java.awt.Color(255, 255, 255));
         jProgressBar3.setBorderPainted(false);
         jPanel6.add(jProgressBar3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 150, 310, -1));
 
