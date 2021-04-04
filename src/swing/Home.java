@@ -147,7 +147,7 @@ public final class Home extends javax.swing.JFrame {
         dataset.setValue(80, "Amount", "may");
         dataset.setValue(250, "Amount", "june");
         
-        JFreeChart chart = ChartFactory.createBarChart("contribution","monthly","amount", 
+        JFreeChart chart = ChartFactory.createBarChart("Les sorties en stock","monthly","amount", 
                 dataset, PlotOrientation.VERTICAL, false,true,false);
         
         CategoryPlot categoryPlot = chart.getCategoryPlot();
