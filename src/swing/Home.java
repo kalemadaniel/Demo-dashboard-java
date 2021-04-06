@@ -141,11 +141,11 @@ public final class Home extends javax.swing.JFrame {
     public void showBarChart(){
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         dataset.setValue(200, "Nombre", "Janvier");
-        dataset.setValue(150, "Nombre", "february");
-        dataset.setValue(18, "Nombre", "march");
-        dataset.setValue(100, "Nombre", "april");
-        dataset.setValue(80, "Nombre", "may");
-        dataset.setValue(250, "Nombre", "june");
+        dataset.setValue(150, "Nombre", "Février");
+        dataset.setValue(18, "Nombre", "Mars");
+        dataset.setValue(100, "Nombre", "Avril");
+        dataset.setValue(80, "Nombre", "Mai");
+        dataset.setValue(250, "Nombre", "Juin");
         
         JFreeChart chart = ChartFactory.createBarChart("Les présences","mensuelle","Nombre", 
                 dataset, PlotOrientation.VERTICAL, false,true,false);
