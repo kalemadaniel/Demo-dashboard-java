@@ -124,7 +124,7 @@ public final class Home extends javax.swing.JFrame {
         HistogramDataset dataset = new HistogramDataset();
         dataset.addSeries("key", values, 20);
         
-         JFreeChart chart = ChartFactory.createHistogram("JFreeChart Histogram","Data", "Frequency", dataset,PlotOrientation.VERTICAL, false,true,false);
+         JFreeChart chart = ChartFactory.createHistogram("Historique","Données", "Fréquence", dataset,PlotOrientation.VERTICAL, false,true,false);
             XYPlot plot= chart.getXYPlot();
         plot.setBackgroundPaint(Color.WHITE);
 
@@ -142,7 +142,7 @@ public final class Home extends javax.swing.JFrame {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         dataset.setValue(200, "Nombre", "Janvier");
         dataset.setValue(150, "Nombre", "Février");
-        dataset.setValue(18, "Nombre", "Mars");
+        dataset.setValue(25, "Nombre", "Mars");
         dataset.setValue(100, "Nombre", "Avril");
         dataset.setValue(80, "Nombre", "Mai");
         dataset.setValue(250, "Nombre", "Juin");
