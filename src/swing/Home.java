@@ -56,7 +56,7 @@ public final class Home extends javax.swing.JFrame {
       barDataset.setValue( "Autres" , new Double( 10 ) );  
       
       //create chart
-       JFreeChart piechart = ChartFactory.createPieChart("mobile sales",barDataset, false,true,false);//explain
+       JFreeChart piechart = ChartFactory.createPieChart("Clé de répartition",barDataset, false,true,false);//explain
       
         PiePlot piePlot =(PiePlot) piechart.getPlot();
       
