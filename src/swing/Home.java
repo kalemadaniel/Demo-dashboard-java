@@ -51,8 +51,8 @@ public final class Home extends javax.swing.JFrame {
         //create dataset
       DefaultPieDataset barDataset = new DefaultPieDataset( );
       barDataset.setValue( "Médecins" , new Double( 20 ) );  
-      barDataset.setValue( "Infirmier" , new Double( 20 ) );   
-      barDataset.setValue( "Administration" , new Double( 40 ) );    
+      barDataset.setValue( "Infirmier" , new Double( 40 ) );   
+      barDataset.setValue( "Administration" , new Double( 20 ) );    
       barDataset.setValue( "Autres" , new Double( 10 ) );  
       
       //create chart
