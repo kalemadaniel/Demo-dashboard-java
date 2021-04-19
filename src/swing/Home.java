@@ -538,7 +538,7 @@ public final class Home extends javax.swing.JFrame {
         jLabel2.setToolTipText("");
         jPanel8.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 390, 40));
 
-        jLabel3.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("X");
