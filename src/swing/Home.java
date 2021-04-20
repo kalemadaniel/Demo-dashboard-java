@@ -61,10 +61,10 @@ public final class Home extends javax.swing.JFrame {
         PiePlot piePlot =(PiePlot) piechart.getPlot();
       
        //changing pie chart blocks colors
-       piePlot.setSectionPaint("Médecins", new Color(255,255,102));
-        piePlot.setSectionPaint("Infirmier", new Color(102,255,102));
-        piePlot.setSectionPaint("Administration", new Color(255,102,153));
-        piePlot.setSectionPaint("Autres", new Color(0,204,204));
+       piePlot.setSectionPaint("Médecins", new Color(23,35,51));
+        piePlot.setSectionPaint("Infirmier", new Color(31,64,108));
+        piePlot.setSectionPaint("Administration", new Color(102,102,0));
+        piePlot.setSectionPaint("Autres", new Color(204,153,0));
       
        
         piePlot.setBackgroundPaint(Color.white);
@@ -457,7 +457,7 @@ public final class Home extends javax.swing.JFrame {
         jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 460, 660, 210));
 
         panelLineChart.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 470, 330, 200));
+        jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, 320, 180));
 
         jPanel1.setLayout(new java.awt.BorderLayout());
         jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 330, 180));
@@ -466,7 +466,7 @@ public final class Home extends javax.swing.JFrame {
         jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 250, 310, 180));
 
         panelBarChart.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 250, 320, 200));
+        jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 250, 320, 180));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
