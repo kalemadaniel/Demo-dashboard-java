@@ -433,17 +433,17 @@ public final class Home extends javax.swing.JFrame {
         jTable1.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"12/1/2018", "Expresso POS", "Kenya", null},
-                {"12/1/2018", "ROM Gen", "US", null},
-                {"12/1/2018", "Text Ed", "UK", null},
-                {"12/1/2018", "Mola Con", "China", null}
+                {null, "12/1/2018", "Expresso POS", "Kenya", null},
+                {null, "12/1/2018", "ROM Gen", "US", null},
+                {null, "12/1/2018", "Text Ed", "UK", null},
+                {null, "12/1/2018", "Mola Con", "China", null}
             },
             new String [] {
-                "Date", "Item", "Location", "Completed"
+                "Id", "Date et Heure", "Personnel", "Fonction", "Completed"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Boolean.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Boolean.class
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -542,6 +542,12 @@ public final class Home extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("X");
+        jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel3MouseClicked(evt);
+            }
+        });
         jPanel8.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 0, 40, 40));
 
         jPanel6.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 60));
@@ -578,6 +584,11 @@ public final class Home extends javax.swing.JFrame {
         ind_2.setOpaque(true);
         resetColor(new JPanel[]{btn_1,btn_3,btn_4}, new JPanel[]{ind_1,ind_3, ind_4});
     }//GEN-LAST:event_btn_2MouseReleased
+
+    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+        // TODO add your handling code here:
+        this.dispose();
+    }//GEN-LAST:event_jLabel3MouseClicked
 
     int xx,xy;
     /**
