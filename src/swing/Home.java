@@ -433,15 +433,15 @@ public final class Home extends javax.swing.JFrame {
         jTable1.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, "12/1/2021 8:12:10", "Ngesera Steven", "Médecin",  new Boolean(true)},
-                {null, "12/1/2021 8:01:10", "Kasigwa miracle ", "Infirmier", null},
-                {null, "12/1/2021 8:15:10", "Nzau Kitoko Dieum", "Admistratif",  new Boolean(true)},
-                {null, "12/1/2021 7:30:10", "Kalema daniel Jonathan", "Médecin",  new Boolean(true)},
-                {null, "12/1/2021 7:43:10", "Bigirimana plaisir", "Infirmier", null},
-                {null, "12/1/2021 8:12:10", "Kaluira Manjanja Dipro", "Admistratif",  new Boolean(true)},
-                {null, "12/1/2021 8:12:10", "Vagheni dorcas kamana", "Médecin", null},
-                {null, "12/1/2021 8:12:10", "Kalema Shango Joseph", "Infirmier",  new Boolean(true)},
-                {null, "12/1/2021 8:12:10", "Luc Djamba Rukukuye", "Médecin",  new Boolean(true)}
+                {"1", "12/1/2021 8:12:10", "Ngesera Steven", "Médecin",  new Boolean(true)},
+                {"2", "12/1/2021 8:01:10", "Kasigwa miracle ", "Infirmier", null},
+                {"3", "12/1/2021 8:15:10", "Nzau Kitoko Dieum", "Admistratif",  new Boolean(true)},
+                {"4", "12/1/2021 7:30:10", "Kalema daniel Jonathan", "Médecin",  new Boolean(true)},
+                {"5", "12/1/2021 7:43:10", "Bigirimana plaisir", "Infirmier", null},
+                {"6", "12/1/2021 8:12:10", "Kaluira Manjanja Dipro", "Admistratif",  new Boolean(true)},
+                {"7", "12/1/2021 8:12:10", "Vagheni dorcas kamana", "Médecin", null},
+                {"8", "12/1/2021 8:12:10", "Kalema Shango Joseph", "Infirmier",  new Boolean(true)},
+                {"9", "12/1/2021 8:12:10", "Luc Djamba Rukukuye", "Médecin",  new Boolean(true)}
             },
             new String [] {
                 "Id", "Date et Heure", "Personnel", "Fonction", "Completed"
@@ -457,6 +457,8 @@ public final class Home extends javax.swing.JFrame {
         });
         jTable1.setGridColor(new java.awt.Color(255, 255, 255));
         jTable1.setRowHeight(22);
+        jTable1.setSelectionBackground(new java.awt.Color(31, 64, 108));
+        jTable1.setSelectionForeground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setViewportView(jTable1);
 
         jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 460, 660, 210));
