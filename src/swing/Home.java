@@ -200,7 +200,9 @@ public final class Home extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         panelBarChart = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jProgressBar2 = new javax.swing.JProgressBar();
         jProgressBar4 = new javax.swing.JProgressBar();
@@ -467,33 +469,38 @@ public final class Home extends javax.swing.JFrame {
         jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, 320, 180));
 
         jPanel1.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 330, 180));
+        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 310, 180));
 
         jPanel3.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 250, 310, 180));
+        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 250, 330, 180));
 
         panelBarChart.setLayout(new java.awt.BorderLayout());
         jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 250, 320, 180));
 
         jPanel2.setBackground(new java.awt.Color(23, 35, 51));
         jPanel2.setToolTipText("");
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 330, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 130, Short.MAX_VALUE)
-        );
+        jLabel5.setFont(new java.awt.Font("Segoe UI Semilight", 0, 20)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("Agents présents");
+        jLabel5.setToolTipText("");
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 40));
 
-        jPanel6.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 330, 130));
+        jPanel6.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 320, 130));
 
         jPanel4.setBackground(new java.awt.Color(23, 35, 51));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel6.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, 310, -1));
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 20)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("Agents présents");
+        jLabel4.setToolTipText("");
+        jPanel4.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 310, 40));
+
+        jPanel6.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, 310, 130));
 
         jPanel5.setBackground(new java.awt.Color(23, 35, 51));
         jPanel5.setToolTipText("");
@@ -652,6 +659,8 @@ public final class Home extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
