@@ -202,8 +202,9 @@ public final class Home extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
         jProgressBar2 = new javax.swing.JProgressBar();
         jProgressBar4 = new javax.swing.JProgressBar();
         jProgressBar5 = new javax.swing.JProgressBar();
@@ -469,10 +470,10 @@ public final class Home extends javax.swing.JFrame {
         jPanel6.add(panelLineChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, 320, 180));
 
         jPanel1.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 310, 180));
+        jPanel6.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 320, 180));
 
         jPanel3.setLayout(new java.awt.BorderLayout());
-        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 250, 330, 180));
+        jPanel6.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 250, 320, 180));
 
         panelBarChart.setLayout(new java.awt.BorderLayout());
         jPanel6.add(panelBarChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 250, 320, 180));
@@ -486,25 +487,33 @@ public final class Home extends javax.swing.JFrame {
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Agents présents");
         jLabel5.setToolTipText("");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 40));
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 40));
 
         jPanel6.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 320, 130));
 
         jPanel4.setBackground(new java.awt.Color(23, 35, 51));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 20)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("Agents présents");
-        jLabel4.setToolTipText("");
-        jPanel4.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 310, 40));
+        jLabel6.setFont(new java.awt.Font("Segoe UI Semilight", 0, 20)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel6.setText("Agents abscents");
+        jLabel6.setToolTipText("");
+        jPanel4.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 40));
 
-        jPanel6.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, 310, 130));
+        jPanel6.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, 320, 130));
 
         jPanel5.setBackground(new java.awt.Color(23, 35, 51));
         jPanel5.setToolTipText("");
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 20)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("Date");
+        jLabel4.setToolTipText("");
+        jPanel5.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 40));
+
         jPanel6.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 80, 320, 130));
 
         jProgressBar2.setBackground(new java.awt.Color(255, 255, 255));
@@ -519,14 +528,14 @@ public final class Home extends javax.swing.JFrame {
         jProgressBar4.setToolTipText("");
         jProgressBar4.setBorderPainted(false);
         jProgressBar4.setStringPainted(true);
-        jPanel6.add(jProgressBar4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, 330, -1));
+        jPanel6.add(jProgressBar4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, 320, -1));
 
         jProgressBar5.setBackground(new java.awt.Color(255, 255, 255));
         jProgressBar5.setForeground(new java.awt.Color(31, 64, 108));
         jProgressBar5.setToolTipText("");
         jProgressBar5.setBorderPainted(false);
         jProgressBar5.setStringPainted(true);
-        jPanel6.add(jProgressBar5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 310, -1));
+        jPanel6.add(jProgressBar5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 220, 320, -1));
 
         jPanel8.setBackground(new java.awt.Color(31, 64, 108));
         jPanel8.setToolTipText("");
@@ -661,6 +670,7 @@ public final class Home extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
