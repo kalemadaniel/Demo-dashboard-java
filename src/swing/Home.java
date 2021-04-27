@@ -81,15 +81,15 @@ public final class Home extends javax.swing.JFrame {
     public void showLineChart(){
         //create dataset for the graph
          DefaultCategoryDataset dataset = new DefaultCategoryDataset();
-        dataset.setValue(200, "Amount", "january");
-        dataset.setValue(150, "Amount", "february");
-        dataset.setValue(18, "Amount", "march");
-        dataset.setValue(100, "Amount", "april");
-        dataset.setValue(80, "Amount", "may");
-        dataset.setValue(250, "Amount", "june");
+        dataset.setValue(200, "Nombre", "Janvier");
+        dataset.setValue(150, "Nombre", "Février");
+        dataset.setValue(25, "Nombre", "Mars");
+        dataset.setValue(100, "Nombre", "Avril");
+        dataset.setValue(80, "Nombre", "Mai");
+        dataset.setValue(250, "Nombre", "Juin");
         
         //create chart
-        JFreeChart linechart = ChartFactory.createLineChart("contribution","monthly","amount", 
+        JFreeChart linechart = ChartFactory.createLineChart("Les Abscences","mensuelle","Nombre", 
                 dataset, PlotOrientation.VERTICAL, false,true,false);
         
         //create plot object
