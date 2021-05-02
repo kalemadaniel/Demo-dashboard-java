@@ -190,6 +190,7 @@ public final class Home extends javax.swing.JFrame {
         btn_4 = new javax.swing.JPanel();
         ind_4 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
@@ -418,6 +419,9 @@ public final class Home extends javax.swing.JFrame {
         );
 
         side_pane.add(btn_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 140, -1));
+
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/swing/images/logo.png"))); // NOI18N
+        side_pane.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 120, 90));
 
         getContentPane().add(side_pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 680));
 
@@ -692,6 +696,7 @@ public final class Home extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
