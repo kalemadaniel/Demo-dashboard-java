@@ -424,8 +424,11 @@ public final class Home extends javax.swing.JFrame {
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/swing/images/logo.png"))); // NOI18N
         side_pane.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 120, 90));
 
-        jLabel16.setText("jLabel16");
-        side_pane.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 650, 140, 30));
+        jLabel16.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel16.setText("Open Source");
+        side_pane.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 640, 140, 30));
 
         getContentPane().add(side_pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 680));
 
