@@ -216,6 +216,7 @@ public final class Home extends javax.swing.JFrame {
         jPanel8 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
 
         jLabel1.setText("jLabel1");
 
@@ -596,6 +597,9 @@ public final class Home extends javax.swing.JFrame {
 
         jPanel6.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 60));
 
+        jButton1.setText("jButton1");
+        jPanel6.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 642, -1, 30));
+
         getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 0, 1030, 680));
 
         pack();
@@ -697,6 +701,7 @@ public final class Home extends javax.swing.JFrame {
     private javax.swing.JPanel ind_2;
     private javax.swing.JPanel ind_3;
     private javax.swing.JPanel ind_4;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
