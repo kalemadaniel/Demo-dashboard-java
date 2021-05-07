@@ -598,7 +598,7 @@ public final class Home extends javax.swing.JFrame {
         jPanel6.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 60));
 
         jButton1.setText("jButton1");
-        jPanel6.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 642, -1, 30));
+        jPanel6.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 640, -1, 30));
 
         getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 0, 1030, 680));
 
