@@ -9,7 +9,7 @@
 Les applications nécessaires pour contribuer au dévéloppement de ce projet :
 
 - Netbeans (https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html)
-- Xampp (https://www.apachefriends.org
+- Xampp (https://www.apachefriends.or
 
 ### Installation
 
