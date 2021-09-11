@@ -1,3 +1,4 @@
+![Dash](https://user-images.githubusercontent.com/51014164/132941129-6af92eb7-f4b8-4a91-a570-9164d2c47d8e.JPG)
 # Demo-dashboard-java
 
   >*Chaque développeur réfléchi en premier sur un plan de continuité d'activité ou un plan de reprise d'activité en cas de pannes pour un système d’information mais aussi dans le sens de système de secours et c'est dans ce cadre que nous l'avons instaurez dans votre programme java utilisant mysql comme SGBD.* 
@@ -33,6 +34,7 @@ Comme pour notre cas, faire le backup en mode ligne de commande, on tappe la com
 ## GUI Solution
 
 L'application se presente comme suit à l'ouverture
+![Dash](https://user-images.githubusercontent.com/51014164/132941136-e48b7653-727a-4f76-a3a2-1dfcc2d2814c.JPG)
 
 
 _les composants de construction :_
