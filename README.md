@@ -4,8 +4,6 @@
 
 ## Pour commencer
 
-Il prend en paramètre les informations qui nous permet de faire une sauvegarde directement d’une interface java et la faire pour de la partie mysql (Base des données) :
-
 ### Pré-requis
 
 Les applications nécessaires pour contribuer au dévéloppement de ce projet :
