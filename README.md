@@ -1,6 +1,6 @@
 # Demo-dashboard-java
 
-  >*Chaque développeur réfléchi en premier sur un plan de continuité d'activité ou un plan de reprise d'activité en cas de pannes pour un système d’information mais aussi dans le sens de système de secours et c'est dans ce cadre que nous l'avons instaurez dans votre programme java utilisant mysql comme SGBD.* 
+  >*Comme nous le savons bien, le tableau de bord est un outil de pilotage d'une entreprise constitué de plusieurs indicateurs de performance et qui a pour principales vocations d'anticiper les évolutions prévisibles et d'inciter le chef d'entreprise à prendre des décisions.* 
 
 ## Pour commencer
 
