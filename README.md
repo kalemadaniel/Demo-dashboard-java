@@ -1,4 +1,3 @@
-![Dash](https://user-images.githubusercontent.com/51014164/132941129-6af92eb7-f4b8-4a91-a570-9164d2c47d8e.JPG)
 # Demo-dashboard-java
 
   >*Chaque développeur réfléchi en premier sur un plan de continuité d'activité ou un plan de reprise d'activité en cas de pannes pour un système d’information mais aussi dans le sens de système de secours et c'est dans ce cadre que nous l'avons instaurez dans votre programme java utilisant mysql comme SGBD.* 
