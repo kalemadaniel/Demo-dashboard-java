@@ -25,8 +25,7 @@ ET si vous souhaitez constituer un executable par la suite il faut faire le ``cl
 
 L'application se presente comme suit à l'ouverture
 
-![Dash](https://user-images.githubusercontent.com/51014164/132941136-e48b7653-727a-4f76-a3a2-1dfcc2d2814c.JPG)
-
+![Dash](https://user-images.githubusercontent.com/51014164/132948125-ccbe9e10-9261-422c-b507-fd48a9bbdff9.JPG)
 
 _les composants de construction :_
 
