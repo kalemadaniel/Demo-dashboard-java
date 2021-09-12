@@ -9,7 +9,7 @@
 Les applications nécessaires pour contribuer au dévéloppement de ce projet :
 
 - Netbeans (https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html)
-Mais aussi l'ensemble des j
+Mais aussi l'ensemble des 
 
 ### Installation
 
