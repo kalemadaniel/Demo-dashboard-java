@@ -1,6 +1,6 @@
 # Demo-dashboard-java
 
-  >*Comme nous le savons bien, le tableau de bord est un outil de pilotage d'une entreprise constitué de plusieurs indicateurs de performance et qui a pour principales vocations d'anticiper les p et d'inciter le chef d'entreprise à prendre des décisions.* 
+  >*Comme nous le savons bien, le tableau de bord est un outil de pilotage d'une entreprise constitué de plusieurs indicateurs de performance et qui a pour principales vocations d'anticiper les pr et d'inciter le chef d'entreprise à prendre des décisions.* 
 
 ## Pour commencer
 
